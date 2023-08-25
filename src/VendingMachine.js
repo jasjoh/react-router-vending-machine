@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+/** Displays a list of links to view items in the vending machine */
 function VendingMachine() {
   return (
     <ul>

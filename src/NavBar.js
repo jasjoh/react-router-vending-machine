@@ -1,7 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export default function NavBar() {
+/** Display a navigation bar at the top of all pages */
+function NavBar() {
   let activeStyle = {
     fontWeight: "bold",
   };
@@ -32,5 +33,5 @@ export default function NavBar() {
   );
 }
 
-
+export default NavBar;
 

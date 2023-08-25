@@ -5,6 +5,7 @@ import Chips from "./Chips";
 import IceCream from "./IceCream";
 import Soda from "./Soda";
 
+/** Handles routing to all routes; redirects unknown nav to root */
 function RoutesList() {
   return (
     <Routes>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+/** Displays 'Ice Cream!' and a link back to vending machine */
 function IceCream() {
   return (
     <div>
