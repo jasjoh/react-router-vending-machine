@@ -1,8 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Soda() {
   return (
-    <p> Soda! </p>
+    <div>
+      <p> Soda! </p>
+      <Link to="/">Back to the vending machine</Link>
+    </div>
   );
 }
 
